@@ -12,4 +12,4 @@
 # Minimal Useful motd
 - `motd.sh` is located `/etc/profile.d/motd.sh`.
   
-![motd](https://i.imgur.com/EiRMMwT.png)
+![motd](https://i.imgur.com/Qj1xys3.png)
