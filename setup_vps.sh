@@ -62,6 +62,9 @@ tasks+=("Install and configure UFW")
 
 # Configure SSH and SFTP
 echo -e "\n${YELLOW}Configuring SSH and SFTP...${NC}"
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
 cat > /etc/ssh/sshd_config <<EOL
 Include /etc/ssh/sshd_config.d/*.conf
 
