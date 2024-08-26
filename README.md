@@ -7,7 +7,7 @@
 - `chmod +x setup_vps.sh`
 
 3. Run the script:
-- `./setup_vps.sh`
+- `sudo ./setup_vps.sh`
 
 # Minimal Useful motd
 - `motd.sh` is located `/etc/profile.d/motd.sh`.
