@@ -68,6 +68,9 @@ sudo systemctl start ssh
 cat > /etc/ssh/sshd_config <<EOL
 Include /etc/ssh/sshd_config.d/*.conf
 
+ClientAliveInterval 60
+ClientAliveCountMax 3
+
 Port $SSH_PORT
 AddressFamily inet
 
